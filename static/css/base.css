@@ -37,6 +37,10 @@ em {
     position: relative;
 }
 
+#results .copy{
+    height: 100px;
+}
+
 p.copy {
     text-align: left;
     font-size: 1.2em;
