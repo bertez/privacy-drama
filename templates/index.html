@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BYOPSEE - Build Your Own Profile.</title>
+    <link rel="stylesheet" href="/static/css/metro-bootstrap.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/static/css/base.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <div class="page active" id="start">
+      <div class="box">
+        <h1>Welcome to BYOPSEE</h1>
+        <p class="copy"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget blandit enim. Nam tincidunt molestie ultrices. Etiam eu sapien sit amet ante volutpat molestie vel et sem. </p>
+        <p class="copy">Curabitur quis lacus tempus, ultricies arcu in, faucibus arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras lobortis convallis velit vitae pellentesque. Vestibulum sit amet gravida odio.</p>
+
+
+      </div>
+      <p><a class="btn btn-primary btn-lg continue" href="#intro">Continue</a></p>
+    </div>
+    <div class="page" id="intro">
+      <div class="box">
+        <h1>Hi my name is <em>Nigel</em> and <br>I am a professional entity emulator.</h1>
+        <p><a class="btn btn-primary btn-lg continue" href="#question">Continue</a></p>
+      </div>
+    </div>
+    <div class="page" id="question">
+      <div class="box">
+        <h1>How may I be of <br>service today?</h1>
+        <div class="input-group input-group-lg">
+          <input id="query" type="text" class="form-control input-lg" placeholder="Enter your query">
+        </div>
+      </div>
+      <p><a class="btn btn-primary btn-lg" id="getquery" href="#results">Continue</a></p>
+    </div>
+    <div class="page" id="loading">
+      <img src="/static/img/spinning-loader.svg" alt=""/>
+      <p class="calculating">Calculating results...</p>
+    </div>
+    <div class="page" id="results">
+      <div class="alert alert-success">
+        <a href="#" class="alert-link">We have found several profiles that match your query.</a>
+      </div>
+      <h1>Your results.</h1>
+
+      <div class="container">
+        <div id="person1" class="col-md-4">
+          <span class="icon"></span>
+          <h3>Johnny <em>Free Edition</em></h3>
+          <p class="copy">25 year old, interested in computers and technogly.</p>
+          <img src="/static/img/1.png" class="img" alt="" />
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+        <div id="person2" class="col-md-4">
+          <span class="icon"></span>
+          <h3>Rose Mary <em>Standard</em></h3>
+          <p class="copy">30 year old, single business woman.</p>
+          <img src="/static/img/2.png" class="img" alt="" />
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+        <div id="person3" class="col-md-4">
+          <span class="icon"></span>
+          <h3>Oswald W. II <em>Full Featured</em></h3>
+          <p class="copy">40 year old millionaire.</p>
+          <img src="/static/img/3.png" class="img" alt="" />
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-4">
+          <p><a class="btn btn-primary btn-lg continue" href="">Free</a></p>
+        </div>
+        <div class="col-md-4">
+          <p><a class="btn btn-primary btn-lg continue" href="">Buy $$$</a></p>
+        </div>
+        <div class="col-md-4">
+          <p><a class="btn btn-primary btn-lg continue" href="">Buy $$$$$$</a></p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/static/js/jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="/static/js/base.js"></script>
+  </body>
+</html>

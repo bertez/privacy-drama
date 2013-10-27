@@ -1,0 +1,86 @@
+.page {
+    display: none;
+}
+
+em {
+    color: #5E4949;
+    weight: bold;
+    font-style: normal;
+}
+
+.box {
+    margin: 150px auto;
+    width: 600px;
+}
+
+.box h1 {
+    font-size: 4em;
+}
+
+.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: center;
+    display: block;
+    background: #94C7A8;
+}
+
+#results {
+    position: relative;
+}
+
+p.copy {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.continue {
+    background: #876C6D;
+    border-color: #5E4949;
+    margin-top: 20px;
+}
+
+.continue:hover {
+    background: #5E4949;
+    border-color: #876C6D;
+}
+
+.img {
+    width: 100%;
+}
+
+.page ul {
+    text-align: left;
+    margin-top: 30px;
+}
+
+#loading img {
+    width: 20em;
+    margin-top: 100px;
+}
+
+.calculating {
+    margin-top: 30px;
+}
+
+input {
+    width: 600px !important;
+}
+
+.recommended {
+    background: #E2D8A5;
+}
+
+.recommended .icon
+{
+    display: block;
+    width: 120px;
+    height: 110px;
+    position: absolute;
+    background: transparent url(../img/recommended.png) top left no-repeat;
+    background-size: cover;
+    top: 100px;
+}
