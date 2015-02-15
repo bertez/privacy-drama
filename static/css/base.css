@@ -1,6 +1,9 @@
 html, body
 {
-    background: #94C7A8;
+    background: rgb(177,235,196);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(177,235,196,1) 0%, rgba(148,199,165,1) 99%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(177,235,196,1)), color-stop(99%,rgba(148,199,165,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(177,235,196,1) 0%,rgba(148,199,165,1) 99%);
 }
 
 .page {
@@ -30,7 +33,10 @@ em {
     min-height: 100%;
     text-align: center;
     display: block;
-    background: #94C7A8;
+    background: rgb(177,235,196);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(177,235,196,1) 0%, rgba(148,199,165,1) 99%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(177,235,196,1)), color-stop(99%,rgba(148,199,165,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(177,235,196,1) 0%,rgba(148,199,165,1) 99%);
 }
 
 #results {
@@ -42,11 +48,11 @@ em {
 }
 
 p.copy {
-    text-align: left;
+    text-align: center;
     font-size: 1.2em;
 }
 
-.continue {
+.continue, .continue2 {
     background: #876C6D;
     border-color: #5E4949;
     margin-top: 20px;

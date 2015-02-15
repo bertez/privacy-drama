@@ -34,8 +34,9 @@ $('#getquery').click(function(){
         $('#loading').addClass('active');
 
         $.get('/modality/' + $query , function(data) {
+            console.log(data);
+            modality = +data;
             setTimeout(function() {
-                modality = +data;
                 $('.active').removeClass('active');
                 $('#results').addClass('active');
 
@@ -47,7 +48,7 @@ $('#getquery').click(function(){
                     console.log(2);
                     person = 2;
                 }
-                if(modality > -0.33 && modality <= -1) {
+                if(modality > 0.33 && modality <= 1) {
                     console.log(3);
                     person = 3;
                 }
